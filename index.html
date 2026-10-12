@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#10b981" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#060d1f" media="(prefers-color-scheme: dark)">
+
+<!-- ============ SEO META ============ -->
+<title>MaBoutique - Produits Premium | Nouveautés & Avis Vérifiés</title>
+<meta name="description" content="Découvrez MaBoutique : produits premium, arrivages hebdomadaires, avis vérifiés 4.9/5. Livraison rapide 24h. Plus de 10 000 clients satisfaits. Commandez maintenant !">
+<meta name="keywords" content="boutique en ligne, produits premium, nouveautés, avis clients, livraison rapide, coffret cadeau, bio, artisanal, promotion, arrivage">
+<meta name="author" content="MaBoutique">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="French">
+<meta name="revisit-after" content="7 days">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="geo.region" content="FR">
+<meta name="geo.placename" content="France">
+<link rel="canonical" href="https://maboutique.example.com/">
+
+<!-- ============ OPEN GRAPH / FACEBOOK ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MaBoutique">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="MaBoutique - Produits Premium | Nouveautés & Avis Vérifiés">
+<meta property="og:description" content="Découvrez nos nouveautés, produits premium et avis vérifiés 4.9/5. Livraison 24h. +10 000 clients satisfaits.">
+<meta property="og:url" content="https://maboutique.example.com/">
+<meta property="og:image" content="https://maboutique.example.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MaBoutique - Produits Premium">
+
+<!-- ============ TWITTER CARD ============ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@maboutique">
+<meta name="twitter:creator" content="@maboutique">
+<meta name="twitter:title" content="MaBoutique - Produits Premium">
+<meta name="twitter:description" content="Nouveautés, avis vérifiés 4.9/5, livraison 24h. +10 000 clients satisfaits.">
+<meta name="twitter:image" content="https://maboutique.example.com/og-image.jpg">
+<meta name="twitter:image:alt" content="MaBoutique">
+
+<!-- ============ PERFORMANCE ============ -->
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://images.unsplash.com">
+
+<!-- ============ FAVICON ============ -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2310b981'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>M</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2310b981'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>M</text></svg>">
+
+<!-- ============ FONTS ============ -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.0/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/plus-jakarta-sans@5.0.0/index.css">
+
+<!-- ============ TAILWIND ============ -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- ============ SCHEMA.ORG JSON-LD ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://maboutique.example.com/#organization",
+      "name": "MaBoutique",
+      "url": "https://maboutique.example.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://maboutique.example.com/logo.png"
+      },
+      "description": "Boutique en ligne de produits premium avec livraison rapide et avis vérifiés.",
+      "sameAs": [
+        "https://www.facebook.com/maboutique",
+        "https://www.instagram.com/maboutique",
+        "https://twitter.com/maboutique"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33-1-23-45-67-89",
+        "contactType": "customer service",
+        "availableLanguage": ["French"],
+        "areaServed": "FR"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://maboutique.example.com/#website",
+      "url": "https://maboutique.example.com/",
+      "name": "MaBoutique",
+      "publisher": { "@id": "https://maboutique.example.com/#organization" },
+      "inLanguage": "fr-FR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://maboutique.example.com/recherche?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://maboutique.example.com/#webpage",
+      "url": "https://maboutique.example.com/",
+      "name": "MaBoutique - Produits Premium | Nouveautés & Avis Vérifiés",
+      "isPartOf": { "@id": "https://maboutique.example.com/#website" },
+      "about": { "@id": "https://maboutique.example.com/#organization" },
+      "description": "Découvrez MaBoutique : produits premium, arrivages hebdomadaires, avis vérifiés 4.9/5.",
+      "inLanguage": "fr-FR",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://maboutique.example.com/og-image.jpg"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://maboutique.example.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Arrivage", "item": "https://maboutique.example.com/#arrivage" },
+        { "@type": "ListItem", "position": 3, "name": "Produits", "item": "https://maboutique.example.com/#produits" },
+        { "@type": "ListItem", "position": 4, "name": "Avis", "item": "https://maboutique.example.com/#avis" }
+      ]
+    },
+    {
+      "@type": "AggregateRating",
+      "itemReviewed": { "@id": "https://maboutique.example.com/#organization" },
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "2847"
+    },
+    {
+      "@type": "Product",
+      "name": "Pack Découverte",
+      "image": "ef1787006c6aa47dbfbdc7913b5d72ed.jpg",
+      "description": "Coffret découverte avec sélection de produits premium.",
+      "brand": { "@type": "Brand", "name": "MaBoutique" },
+      "sku": "PACK-001",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://maboutique.example.com/#produits",
+        "priceCurrency": "EUR",
+        "price": "29.90",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "342"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Coffret Premium",
+      "image": "https://maboutique.example.com/coffret-premium.jpg",
+      "description": "Coffret premium avec produits haut de gamme.",
+      "brand": { "@type": "Brand", "name": "MaBoutique" },
+      "sku": "COFFRET-001",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "price": "49.90",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "189"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Sélection Bio",
+      "image": "file_000000008fa082468e62d038c19ebefc.png",
+      "description": "Sélection de produits 100% bio certifiés.",
+      "brand": { "@type": "Brand", "name": "MaBoutique" },
+      "sku": "BIO-001",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "price": "34.50",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "256"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Box Mensuelle",
+      "image": "fc7d035abeb24f90fc3479fc23125c0c.jpg",
+      "description": "Abonnement mensuel à une box de produits premium.",
+      "brand": { "@type": "Brand", "name": "MaBoutique" },
+      "sku": "BOX-001",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "price": "24.90",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "412"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les délais de livraison ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nous livrons en 24h partout en France métropolitaine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les avis sont-ils vérifiés ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, tous nos avis proviennent de clients ayant réellement commandé."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MOBILE OVERLAY -->
+<div class="mobile-overlay" id="mobileOverlay" onclick="closeMobileMenu()"></div>
+
+<!-- MOBILE MENU -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+  <div class="flex items-center justify-between mb-6 pb-4" style="border-bottom: 1px solid var(--border);">
+    <div class="flex items-center gap-3">
+      <div class="avatar-circle">M</div>
+      <span class="brand text-xl font-bold">BOBDIGIT</span>
+    </div>
+    <button class="nav-btn-circle" onclick="closeMobileMenu()" aria-label="Fermer le menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <a href="#arrivage" class="mobile-menu-item" onclick="closeMobileMenu()">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+    Arrivage
+    <span class="badge-new text-xs px-2 py-0.5 rounded-full ml-auto">NEW</span>
+  </a>
+  <a href="#produits" class="mobile-menu-item" onclick="closeMobileMenu()">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+    Produits
+  </a>
+  <a href="#avis" class="mobile-menu-item" onclick="closeMobileMenu()">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+    Avis clients
+  </a>
+  <a href="#contact" class="mobile-menu-item" onclick="closeMobileMenu()">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+    Contact
+  </a>
+  <div class="mt-6">
+    <button class="btn-primary w-full py-3 rounded-xl font-semibold">Commander</button>
+  </div>
+  <div class="mt-auto pt-6 flex items-center justify-around text-xs text-muted">
+    <a href="#" class="hover:text-[var(--primary)]">Mentions légales</a>
+    <a href="#" class="hover:text-[var(--primary)]">CGV</a>
+    <a href="#" class="hover:text-[var(--primary)]">Confidentialité</a>
+  </div>
+</nav>
+
+<!-- NAVBAR -->
+<nav class="navbar sticky top-0 z-50" role="navigation" aria-label="Navigation principale">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between w-full">
+    <div class="flex items-center gap-3">
+      <button class="nav-btn-circle md:hidden" onclick="toggleMobileMenu()" aria-label="Ouvrir le menu" aria-expanded="false" id="burgerBtn">
+        <div class="burger-icon" id="burgerIcon">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+      <a href="#" class="flex items-center gap-2" aria-label="MaBoutique - Accueil">
+        <div class="avatar-circle">M</div>
+        <span class="brand text-xl font-bold hidden sm:block">MaBoutique</span>
+      </a>
+    </div>
+
+    <div class="hidden md:flex items-center gap-6 text-sm font-medium" role="menubar">
+      <a href="#arrivage" class="hover:opacity-70" role="menuitem">Arrivage</a>
+      <a href="#produits" class="hover:opacity-70" role="menuitem">Produits</a>
+      <a href="#avis" class="hover:opacity-70" role="menuitem">Avis</a>
+      <a href="#contact" class="hover:opacity-70" role="menuitem">Contact</a>
+    </div>
+
+    <div class="flex items-center gap-1">
+      <div class="dropdown" id="cartDropdown">
+        <div class="nav-btn-circle" onclick="toggleDropdown('cartDropdown')" role="button" aria-label="Panier, 3 articles" aria-haspopup="true">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          <span class="indicator-badge">3</span>
+        </div>
+        <div class="dropdown-content w-72 p-4" role="menu">
+          <div class="font-bold text-lg mb-1">3 articles</div>
+          <div class="text-sm mb-3" style="color: var(--primary)">Sous-total : 49.90€</div>
+          <div class="space-y-2 mb-3 max-h-48 overflow-y-auto">
+            <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-[var(--bg-alt)]">
+              <div class="w-12 h-12 rounded-lg flex items-center justify-center text-2xl" style="background: var(--bg-alt)">🎁</div>
+              <div class="flex-1 min-w-0">
+                <div class="text-sm font-semibold truncate">Pack Découverte</div>
+                <div class="text-xs text-muted">29.90€</div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary w-full py-2.5 rounded-xl font-semibold text-sm">Voir le panier</button>
+        </div>
+      </div>
+
+      <button id="themeToggle" class="nav-btn-circle" aria-label="Changer de thème">
+        <svg id="iconSun" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        <svg id="iconMoon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+      </button>
+
+      <div class="dropdown" id="userDropdown">
+        <div class="nav-btn-circle" onclick="toggleDropdown('userDropdown')" role="button" aria-label="Menu utilisateur" aria-haspopup="true">
+          <div class="avatar-circle">JD</div>
+        </div>
+        <div class="dropdown-content w-52 p-2" role="menu">
+          <div class="menu-item" role="menuitem"><span>Profil</span><span class="badge-primary">New</span></div>
+          <div class="menu-item" role="menuitem"><span>Commandes</span></div>
+          <div class="menu-item" role="menuitem"><span>Paramètres</span></div>
+          <div class="menu-item" role="menuitem" style="color:#ef4444"><span>Déconnexion</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <div class="inline-flex items-center gap-2 section-badge px-3 py-1 rounded-full text-xs font-semibold mb-5">
+        <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+        Nouveautés disponibles
+      </div>
+      <h1 class="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-5">
+        Découvrez nos <span class="gradient-text">nouveaux produits</span>
+      </h1>
+      <p class="text-muted text-lg mb-8 max-w-lg">
+        Qualité premium, livraison rapide et avis vérifiés. Rejoignez des milliers de clients satisfaits.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="#arrivage" class="btn-primary px-6 py-3 rounded-xl font-semibold inline-flex items-center gap-2">
+          Voir l'arrivage
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <button onclick="sharePage()" class="share-btn card px-6 py-3 rounded-xl font-semibold inline-flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+          Partager
+        </button>
+      </div>
+      <div class="flex items-center gap-4 sm:gap-6 mt-8 text-sm">
+        <div><div class="text-2xl font-bold gradient-text">+10k</div><div class="text-muted">Clients</div></div>
+        <div class="w-px h-10" style="background: var(--border)"></div>
+        <div><div class="text-2xl font-bold gradient-text">4.9★</div><div class="text-muted">Note moyenne</div></div>
+        <div class="w-px h-10 hidden sm:block" style="background: var(--border)"></div>
+        <div class="hidden sm:block"><div class="text-2xl font-bold gradient-text">24h</div><div class="text-muted">Livraison</div></div>
+      </div>
+    </div>
+    <div class="relative">
+      <div class="absolute inset-0 rounded-3xl blur-3xl opacity-30" style="background: var(--primary);"></div>
+      <div class="relative card rounded-3xl p-4">
+        <div class="aspect-square rounded-2xl overflow-hidden hover-gallery active">
+          <img class="gallery-img" src="IMG-20260930-WA0004.jpg" alt="Produit premium 1" loading="lazy">
+          <img class="gallery-img" src="IMG-20260930-WA0008.jpg" alt="Produit premium 2" loading="lazy">
+          <img class="gallery-img" src="IMG-20260930-WA0006.jpg" alt="Produit premium 3" loading="lazy">
+                    <img class="gallery-img" src="IMG-20260930-WA0005.jpg" alt="Produit premium 3" loading="lazy">
+                    
+          <img class="gallery-img" src="IMG-20260930-WA0002.jpg" alt="Produit premium 4" loading="lazy">
+          <div class="gallery-dots"><span></span><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ARRIVAGE -->
+<section id="arrivage" class="py-14 bg-alt" aria-labelledby="arrivage-title">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-end justify-between mb-8 flex-wrap gap-4">
+      <div>
+        <div class="inline-flex items-center gap-2 section-badge px-3 py-1 rounded-full text-xs font-semibold mb-3">
+          🔥 FRAIS ARRIVÉ
+        </div>
+        <h2 id="arrivage-title" class="section-title text-3xl md:text-4xl font-extrabold">Arrivage de la semaine</h2>
+        <p class="text-muted mt-2">Les dernières nouveautés fraîchement reçues</p>
+      </div>
+      <div class="flex gap-2">
+        <button onclick="scrollArrivage(-1)" class="nav-btn" aria-label="Défiler à gauche">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button onclick="scrollArrivage(1)" class="nav-btn" aria-label="Défiler à droite">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="arrivageContainer" class="carousel-track">
+      <div class="carousel-item w-[85%] md:w-[480px] flex-shrink-0">
+        <div class="flyer-slot rounded-3xl p-8 h-full min-h-[420px] flex flex-col justify-between text-white relative">
+          <input type="file" accept="image/*" class="flyer-input" onchange="uploadFlyer(event)" title="Cliquez pour ajouter votre flyer" aria-label="Ajouter un flyer">
+          <div class="flyer-upload" id="flyerUpload"></div>
+          <div class="relative" style="z-index: 5">
+            <div class="inline-block bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs font-bold mb-4">PROMO EXCLUSIVE</div>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-3 leading-tight">Jusqu'à<br>-50% cette semaine !</h3>
+            <p class="text-white/80 mb-4">Offre limitée sur une sélection de produits premium</p>
+          </div>
+          <div class="relative flex items-center justify-between flex-wrap gap-3" style="z-index: 5">
+            <div>
+              <div class="text-xs opacity-70">Code promo</div>
+              <div class="text-2xl font-bold tracking-wider">ARRIVAGE50</div>
+            </div>
+            <button class="bg-white text-gray-900 px-5 py-2.5 rounded-xl font-bold text-sm hover:scale-105 transition">
+              J'en profite →
+            </button>
+          </div>
+          <div class="flyer-placeholder" id="flyerPlaceholder">📸 Cliquez pour ajouter votre flyer</div>
+        </div>
+      </div>
+      <div id="arrivageTrack" class="flex gap-4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUITS -->
+<section id="produits" class="py-14" aria-labelledby="produits-title">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 section-badge px-3 py-1 rounded-full text-xs font-semibold mb-3">
+        ⭐ BEST-SELLERS
+      </div>
+      <h2 id="produits-title" class="section-title text-3xl md:text-4xl font-extrabold">Nos produits populaires</h2>
+      <p class="text-muted mt-2">Survolez pour voir la galerie</p>
+    </div>
+    <div id="productsGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"></div>
+  </div>
+</section>
+
+<!-- AVIS -->
+<section id="avis" class="py-14 bg-alt overflow-hidden" aria-labelledby="avis-title">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 section-badge px-3 py-1 rounded-full text-xs font-semibold mb-3">
+        💬 AVIS VÉRIFIÉS
+      </div>
+      <h2 id="avis-title" class="section-title text-3xl md:text-4xl font-extrabold">Ce que disent nos clients</h2>
+      <div class="flex items-center justify-center gap-2 mt-4">
+        <div class="flex" aria-label="Note 5 sur 5">
+          <span class="star text-2xl">★</span><span class="star text-2xl">★</span><span class="star text-2xl">★</span><span class="star text-2xl">★</span><span class="star text-2xl">★</span>
+        </div>
+        <span class="font-bold text-lg">4.9/5</span>
+        <span class="text-muted text-sm">basé sur 2 847 avis</span>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="overflow-hidden">
+        <div id="reviewsTrack" class="review-track" role="list"></div>
+      </div>
+      <div class="flex justify-center gap-2 mt-8" id="reviewDots" role="tablist"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA PARTAGE -->
+<section class="py-14" aria-labelledby="partage-title">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="card rounded-3xl p-6 sm:p-8 md:p-12 text-center relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10" style="background: radial-gradient(circle at 50% 0%, var(--primary), transparent 70%);"></div>
+      <div class="relative">
+        <h2 id="partage-title" class="section-title text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">Partagez avec vos proches</h2>
+        <p class="text-muted mb-8 max-w-xl mx-auto">Vous aimez nos produits ? Partagez la boutique avec vos amis et famille !</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <button onclick="shareWhatsApp()" class="share-btn bg-[#25D366] hover:bg-[#1faa52] text-white px-4 sm:px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2 text-sm sm:text-base">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </button>
+          <button onclick="shareFacebook()" class="share-btn bg-[#1877F2] hover:bg-[#1565d8] text-white px-4 sm:px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2 text-sm sm:text-base">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </button>
+          <button onclick="shareTwitter()" class="share-btn bg-black dark:bg-white dark:text-black text-white px-4 sm:px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2 text-sm sm:text-base">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Twitter
+          </button>
+          <button onclick="copyLink()" class="share-btn card px-4 sm:px-5 py-3 rounded-xl font-semibold inline-flex items-center gap-2 text-sm sm:text-base">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+            Copier
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="border-t border-color py-10" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+      <div class="col-span-2 md:col-span-1">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="avatar-circle">M</div>
+          <span class="brand text-xl font-bold">MaBoutique</span>
+        </div>
+        <p class="text-muted text-sm">Produits premium, livraison rapide, avis vérifiés.</p>
+      </div>
+      <div>
+        <h3 class="font-bold mb-3 text-sm">Boutique</h3>
+        <ul class="space-y-2 text-sm text-muted">
+          <li><a href="#arrivage" class="hover:text-[var(--primary)]">Arrivage</a></li>
+          <li><a href="#produits" class="hover:text-[var(--primary)]">Produits</a></li>
+          <li><a href="#avis" class="hover:text-[var(--primary)]">Avis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold mb-3 text-sm">Aide</h3>
+        <ul class="space-y-2 text-sm text-muted">
+          <li><a href="#" class="hover:text-[var(--primary)]">Contact</a></li>
+          <li><a href="#" class="hover:text-[var(--primary)]">Livraison</a></li>
+          <li><a href="#" class="hover:text-[var(--primary)]">Retours</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold mb-3 text-sm">Légal</h3>
+        <ul class="space-y-2 text-sm text-muted">
+          <li><a href="#" class="hover:text-[var(--primary)]">Mentions légales</a></li>
+          <li><a href="#" class="hover:text-[var(--primary)]">CGV</a></li>
+          <li><a href="#" class="hover:text-[var(--primary)]">Confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-6 text-center text-sm text-muted" style="border-top: 1px solid var(--border)">
+      © 2026 MaBoutique. Tous droits réservés.
+    </div>
+  </div>
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast" role="status" aria-live="polite">
+  <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+  <span id="toastMsg">Lien copié !</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
